@@ -44,10 +44,6 @@ void String::setstr(char* str)
 	strcpy_s(stroka, strlen(stroka) + 1, str);
 }
 
-//void String::getstr()
-//{
-	//return stroka;
-//}
 
 int String::search(char str)
 {
